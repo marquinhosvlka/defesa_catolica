@@ -174,3 +174,64 @@ footer a:hover {
 h2 {
     text-align: center;
 }
+/* Estilos para a seção de comentários */
+#comentarios-section {
+    margin-top: 2em;
+}
+
+#formulario {
+    margin-bottom: 1em;
+}
+
+#formulario label {
+    display: block;
+    margin-bottom: 0.5em;
+}
+
+#formulario input, #formulario textarea {
+    width: 100%;
+    padding: 0.5em;
+    margin-bottom: 1em;
+}
+
+#formulario button {
+    padding: 0.5em 1em;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 0.25em;
+    cursor: pointer;
+}
+
+#formulario button:hover {
+    background-color: #0056b3;
+}
+
+#lista-comentarios {
+    margin-top: 1em;
+}
+
+.comentario {
+    border-bottom: 1px solid #ccc;
+    padding: 0.5em 0;
+}
+
+#paginacao {
+    margin-top: 1em;
+    text-align: center;
+}
+
+#paginacao button {
+    padding: 0.5em 1em;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 0.25em;
+    cursor: pointer;
+    margin: 0 0.5em;
+}
+
+#paginacao button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+}
