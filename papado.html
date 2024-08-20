@@ -92,6 +92,23 @@
                 </div>
             </div>
         </section>
+        <section id="comentarios-section">
+            <h2>Comentários</h2>
+            <form id="formulario">
+                <input type="hidden" id="pagina" value="confissao.html">  <!-- Campo oculto para a página -->
+                <label for="nome">Nome:</label>
+                <input type="text" id="nome" required>
+                <label for="comentario">Comentário:</label>
+                <textarea id="comentario" rows="4" required></textarea>
+                <button type="submit">Enviar Comentário</button>
+            </form>
+            <div id="lista-comentarios"></div>
+            <div id="paginacao">
+                <button id="btn-anterior" onclick="mudarPagina(-1)">Anterior</button>
+                <span id="pagina-info"></span>
+                <button id="btn-proximo" onclick="mudarPagina(1)">Próximo</button>
+            </div>
+        </section>
     </main>
     <footer class="copyright-bar">
         <p>&copy; 2024 Defesa da Fé Católica</p>
