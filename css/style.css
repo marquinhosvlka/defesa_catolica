@@ -3,12 +3,10 @@ body {
     margin: 0;
     padding: 0;
     background-color: #f8f9fa;
-    /* Fundo branco */
 }
 
 header {
     background-color: #003366;
-    /* Azul escuro */
     color: white;
     padding: 10px 0;
     text-align: center;
@@ -35,6 +33,12 @@ nav ul li a {
     font-weight: bold;
 }
 
+nav ul li a.active {
+    color: #ffd700;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
 main {
     padding: 20px;
 }
@@ -42,7 +46,6 @@ main {
 .intro {
     text-align: center;
     background-color: #0056b3;
-    /* Azul mais claro */
     color: white;
     padding: 50px 20px;
     margin-bottom: 20px;
@@ -55,9 +58,7 @@ main {
 
 .intro .cta-button {
     background-color: #ffd700;
-    /* Amarelo (ouro) */
     color: #003366;
-    /* Azul escuro */
     padding: 10px 20px;
     text-decoration: none;
     border-radius: 5px;
@@ -74,7 +75,6 @@ main {
 
 .card {
     background-color: #fffafa;
-    /* Branco floral */
     border-radius: 5px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     margin: 10px;
@@ -86,7 +86,6 @@ main {
 .card img {
     max-width: 100%;
     height: 200px;
-    /* Definindo uma altura fixa para as imagens */
     border-radius: 5px;
 }
 
@@ -102,9 +101,7 @@ main {
 
 .card .button {
     background-color: #ffd700;
-    /* Amarelo (ouro) */
     color: #003366;
-    /* Azul escuro */
     padding: 10px 15px;
     text-decoration: none;
     border-radius: 5px;
@@ -114,7 +111,6 @@ main {
 
 footer {
     background-color: #003366;
-    /* Azul escuro */
     color: white;
     text-align: center;
     padding: 10px 0;
@@ -133,7 +129,6 @@ footer {
 main {
     padding: 20px;
     margin-bottom: 60px;
-    /* Adicionando margem para o footer */
 }
 
 footer {
@@ -146,8 +141,6 @@ footer {
     bottom: 0;
 }
 
-/* Adicione este bloco de estilos no seu arquivo de estilo CSS */
-
 @media only screen and (max-width: 768px) {
     nav ul {
         display: flex;
@@ -157,24 +150,21 @@ footer {
 
     nav ul li {
         margin-bottom: 10px;
-        /* Adicionar espaço entre os itens */
     }
 }
 
 nav ul li a:hover {
     color: #ffd700;
-    /* Amarelo (ouro) ao passar o mouse */
 }
 
 footer a:hover {
     color: #ffd700;
-    /* Amarelo (ouro) ao passar o mouse */
 }
 
 h2 {
     text-align: center;
 }
-/* Estilos para a seção de comentários */
+
 #comentarios-section {
     margin-top: 2em;
 }
