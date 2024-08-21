@@ -49,6 +49,7 @@ main {
     color: white;
     padding: 50px 20px;
     margin-bottom: 20px;
+    border-radius: 8px;
 }
 
 .intro h2 {
