@@ -84,10 +84,8 @@ function mudarPagina(direcao) {
 
 function verificarBotoesNavegacao() {
     document.getElementById('btn-anterior').disabled = paginaAtual <= 1;
-    // A lógica para habilitar o botão "Próximo" pode ser ajustada conforme necessário
-    // Exemplo: você pode verificar o número total de comentários e ajustar a lógica
-    // Para fins de exemplo, assumimos que sempre haverá mais comentários se houver navegação.
-    document.getElementById('btn-proximo').disabled = false; // Ajuste conforme a lógica de paginação
+  
+    document.getElementById('btn-proximo').disabled = false; //paginacao
 }
 
 // Carrega os comentários quando a página é carregada
